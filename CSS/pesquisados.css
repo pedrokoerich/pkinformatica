@@ -1,0 +1,420 @@
+input, textarea{
+    outline: none;
+}
+
+/*Cabeçalho*/
+
+.bg{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu{
+    margin-right: 10px;
+    float: right;
+    font-size: 17px;
+}
+
+.menu li a{
+    float: right;
+}
+
+#navbarText{
+    float: right;
+}
+
+#navbarText ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbarText ul li{
+    margin-left: 10px;
+}
+
+#navbarText ul li:hover{
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgb(57, 92, 104);
+}
+
+.logo{
+    padding: 13px;
+    text-align: center;
+    cursor:pointer;
+    float: left;
+}
+
+.login{
+    text-align: center;
+    padding: 12px;
+    font-size: 12px;
+    color: white;
+
+}
+
+.login p{
+    font-size: 17px;
+    text-align: right;
+    margin-bottom: 2px;
+    
+}
+
+.login input{
+    border-radius: 5px;
+    font-size: 12px;
+    color: black;
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.login button{
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: 1px solid white;
+    font-size: 11px;
+    color: white;
+    background-color:rgb(11, 44, 55);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.login button:hover{
+    cursor: pointer;
+}
+
+.login a{
+    cursor: pointer;
+}
+
+.corpo_catalogo{
+    margin-top: 20px;
+    min-height: 2050px;
+    background-color:rgb(6, 31, 39);
+    border-radius: 5px;
+    padding: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.pesquisa{
+    text-align: center;
+}
+
+.pesquisa input{
+    width: 390px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    padding-left: 20px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pesquisa button{
+    width: 47px;
+    height: 45px;
+    border-radius: 35px;
+    border: 1px solid black;
+    margin-left: -48px;
+    background-color:rgb(57, 92, 104);
+    margin-bottom: 10px;
+}
+
+.pesquisa button:hover{
+    cursor: pointer;
+    background-color:rgb(11, 44, 55);
+}
+
+.categorias2{
+    height: 50px;
+    font-size: 23px;
+    float: left;
+}
+
+.box_img{
+    background-color:rgb(187, 200, 210);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.box_img p{
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    margin-top: 15px;
+    left: 1;
+    width: 323px;
+    height: 250px;
+    background:rgba(0, 0, 0, 0.7);
+    color: #d6d0d0;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.box_img p > *{
+    transform: translateY(20px) ;
+    transition: transform 0.25s;
+}
+
+.box_img p:hover{
+    opacity: 1;
+}
+
+.box_img p:hover > *{
+    transform: translateY(0) ;
+}
+
+.paginacao{
+    height: 60px;
+    width: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+@media(min-width:0px) and (max-width:576px) {
+    .corpo_catalogo{
+        min-height: 5720px;
+    }
+
+    .catalogo{
+        height: 4900px;
+    }
+
+    .categorias2{
+        font-size: 1rem;
+        height: 90px;
+        
+    }
+
+    .paginacao{
+        margin-left: 80px;
+        margin-top: 665px;
+    }
+
+    .box_img p{
+        width: 375px;
+        height: 250px;
+    }
+    
+    .login{
+        text-align: right;
+    }
+}
+
+@media(min-width:576px) and (max-width:776px) {
+    .corpo_catalogo{
+        min-height: 5750px;
+    }
+
+    .catalogo{
+        height: 4930px;
+    }
+
+    .categorias2{
+        font-size: 1rem;
+        height: 90px;
+        
+    }
+
+    .paginacao{
+        margin-left: 100px;
+        margin-top: 660px;
+    }
+
+    .box_img p{
+        width: 430px;
+        height: 250px;
+    }
+    
+    .login{
+        text-align: right;
+    }
+}
+
+@media(min-width:776px) and (max-width:992px) {
+    .corpo_catalogo{
+        min-height: 5750px;
+    }
+
+    .catalogo{
+        height: 4930px;
+    }
+
+    .categorias2{
+        font-size: 1rem;
+        
+    }
+
+    .categorias2 div{
+        float: left;
+        margin-left: 28px;
+    }
+
+    .paginacao{
+        margin-left: 200px;
+        margin-top: 660px;
+    }
+
+    .box_img p{
+        width: 610px;
+        height: 250px;
+    }
+    
+    .login{
+        text-align: right;
+    }
+}
+
+@media(min-width:992px) and (max-width:1200px){
+    .categorias2{
+        font-size: 1.2rem;
+        
+    }
+
+    .catalogo{
+        height: 1850px;
+    }
+
+    .categorias2 div{
+        float: left;
+        margin-left: 80px;
+
+    }
+
+    .paginacao{
+        margin-left: 310px;
+    }
+
+    .box_img p{
+        width: 263px;
+        height: 250px;
+    }
+}
+
+@media(min-width:1200px){
+    .catalogo{
+        height: 1850px;
+    }
+
+    .categorias2{
+        font-size: 1.5rem;
+        
+    }
+
+    .categorias2 div{
+        float: left;
+        margin-left: 110px;
+
+    }
+}
+
+.categorias2 label{
+    color: white;
+}
+
+
+.categorias2 div{
+    float: left;
+}
+
+.catalogo{
+    margin-top: 10px;
+    float: right;
+    text-align: center;
+}
+
+.produto{
+    margin-bottom: 10px;
+    color: white;
+    height: 300px;
+    float: left;
+}
+
+.box_img{
+    background-color:rgb(187, 200, 210);
+    border-radius: 5px;
+}
+
+/*Rodapé*/
+
+.row7{
+    background-color:rgb(29, 48, 55);
+    width: 100%;
+    min-height: 90px;
+}
+
+.quebra_linha2{
+    border: 1px solid white;
+    width: 100px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: white;
+    float: right;
+}
+
+.volta_topo{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    height: 60px;
+    float: right;
+}
+
+.volta_topo svg{
+    margin-top: 15px;
+}
+
+@media(min-width:600px) and  (max-width:999px){
+    .corpo_catalogo{
+        height: 1900px;
+    }
+}
+
+.registro{
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 80px;
+    float: left;
+}
+
+.registro p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+@media(min-width:0px) and (max-width:599px) {
+    .registro p{
+        font-size: 0.7rem;
+    }
+}
+@media(min-width:599px) and (max-width:799px) {
+    .registro p{
+        font-size: 0.8rem;
+    }
+}

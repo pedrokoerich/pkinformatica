@@ -1,0 +1,869 @@
+input, textarea, button{
+    outline: none;
+}
+
+/*Cabeçalho*/
+.bg{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu{
+    margin-right: 10px;
+    float: right;
+    font-size: 17px;
+}
+
+#navbarText{
+    float: right;
+}
+
+#navbarText ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbarText ul li{
+    margin-left: 10px;
+}
+
+#navbarText ul li:hover{
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgb(57, 92, 104);
+}
+
+.menu li a{
+    float: right;
+}
+
+.logo{
+    padding: 13px;
+    text-align: center;
+    cursor:pointer;
+    float: left;
+}
+
+.login{
+    text-align: center;
+    padding: 12px;
+    font-size: 12px;
+    color: white;
+
+}
+
+.login p{
+    font-size: 17px;
+    text-align: right;
+    margin-bottom: 2px;
+    
+}
+
+.login input{
+    border-radius: 5px;
+    font-size: 12px;
+    color: black;
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.login button{
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: 1px solid white;
+    font-size: 11px;
+    color: white;
+    background-color:rgb(11, 44, 55);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.login button:hover{
+    cursor: pointer;
+}
+
+.login a{
+    cursor: pointer;
+}
+
+/*Main*/
+
+.corpo{
+    margin-top: 20px;
+    max-width: 950;
+    height: 850px;
+    background-color:rgb(6, 31, 39);
+    border-radius: 5px;
+    padding: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.previews{
+    float: left;
+    height: 330px;
+
+}
+
+.preview{
+    height: 100px;  
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-color:rgb(89, 129, 143);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+
+.preview img{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.preview > *{
+    transform: translateY(20px) ;
+    transition: transform 0.25s;
+}
+
+.preview:hover{
+    opacity: 1;
+    background:rgba(65, 87, 106, 0.767);
+    transition: opacity 0.25s;
+}
+
+.preview > *{
+    transform: translateY(0) ;
+}
+
+.preview svg{
+    margin-top: 30px;
+}
+
+.principal{
+    height: 330px;
+    float: left;
+    
+}
+
+.imgDestaque{
+    height: 320px;    
+    float: left;
+    border-radius: 3px;
+    background-color:rgb(89, 129, 143);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-left: -7px;
+    overflow: hidden;
+    
+}
+
+.principal2{
+    float: left;
+    margin-left: -10px;
+}
+
+.infoProduto{
+    height: 330px;
+    float: right;
+    border-radius: 3px;
+    margin-right: -10px;
+}
+
+.nome{
+    height: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 3px;
+    text-align: justify;
+}
+
+.valor{
+    margin-top: 35px;
+    height: 73px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(169, 208, 223);
+    border-radius: 3px;
+}
+
+.valor p{
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-right: 20px;
+    margin-left: -60px;
+}
+
+.pagamento{
+    margin-top: 10px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.pagamento button{
+    width: 250px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    outline: none;
+    margin-top: 10px;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(111, 139, 162);
+    border: 2px solid rgb(111, 139, 162);
+    cursor: pointer;
+}
+
+.pagamento button:hover{
+    background-color: rgb(58, 78, 94);
+}
+
+
+.info{
+    margin-top: 10px;
+    height: 350px;
+    color: white;
+}
+
+.descricao{
+    color: white;
+    margin-top: 10px;
+    height: 430px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.descricao::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+.descricao::-webkit-scrollbar {
+    width: 12px;
+    background: #F4F4F4;
+}
+.descricao::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+    border-radius: 5px;
+}
+
+.descricao::-webkit-scrollbar-track-piece{
+    background-color:rgb(6, 31, 39);
+}
+
+.pesquisa{
+    text-align: center;
+}
+
+.pesquisa input{
+    width: 390px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    padding-left: 20px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pesquisa button{
+    width: 47px;
+    height: 45px;
+    border-radius: 35px;
+    border: 1px solid black;
+    margin-left: -48px;
+    background-color:rgb(57, 92, 104);
+    margin-bottom: 10px;
+}
+
+.pesquisa button:hover{
+    cursor: pointer;
+    background-color:rgb(11, 44, 55);
+}
+
+.row3{
+    margin-bottom: 10px;
+}
+
+.banner_rotativo{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    max-height: 400px;
+    cursor: pointer;
+}
+
+.banner{
+    max-width: 1000px;
+    max-height: 400px;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+
+.banner_interno{
+    max-width: 1000px;
+    max-height: 400px;
+}
+
+.banner_interno img{
+    display: block;
+}
+
+.text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.text > *{
+    transform: translateY(20px) ;
+    transition: transform 0.25s;
+}
+
+.text:hover{
+    opacity: 1;
+}
+
+.text:hover > *{
+    transform: translateY(0) ;
+}
+
+.row4{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-height: 300px;
+}
+
+@media(min-width:0px) and (max-width:599px) {
+    .row4{
+        min-height:480px;
+    }
+
+    .login{
+        text-align: right;
+    }
+}
+
+@media(min-width:599px) and (max-width:1000px) {
+    .row4{
+        min-height:570px;
+    }
+
+    .login{
+        text-align: right;
+    }
+}
+
+.categoria_cadeiras{
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    float: left;
+    background-color:rgb(187, 200, 210);
+}
+
+.categoria_cadeiras img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
+
+}
+
+.categoria_monitores{
+    margin-top: 15px;
+    cursor: pointer;
+    float: right;
+}
+
+.categoria_monitores img{
+    border-radius: 5px;
+    display: block;
+}
+
+.text2{
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    width: 95%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.text2 > *{
+    transform: translateY(20px) ;
+    transition: transform 0.25s;
+}
+
+.text2:hover{
+    opacity: 1;
+}
+
+.text2:hover > *{
+    transform: translateY(0) ;
+}
+
+.text3{
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.text3 > *{
+    transform: translateY(20px) ;
+    transition: transform 0.25s;
+}
+
+.text3:hover{
+    opacity: 1;
+}
+
+.text3:hover > *{
+    transform: translateY(0) ;
+}
+
+/*Quem somos*/
+.titulo{
+    width: 300px;
+}
+
+.quem_somos{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-height: 430px;
+    margin-top: 40px;
+}
+
+.quebra_linha{
+    border: 1px solid white;
+    width: 130px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.row5 h1{
+    color: white;
+    margin-top: -20px;
+    font-size: 35px;
+    margin-left: 20px;
+
+}
+
+.texto_quem_somos p{
+    color: white;
+    font-size: 1.4rem;
+    margin-left: -1px;
+    margin-top: 3px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+
+}
+
+@media(min-width:0px) and (max-width:799px) {
+    .texto_quem_somos p{
+        font-size: 1.1rem;
+    }
+}
+
+/*Contato*/
+.row6 h1{
+    color: white;
+    margin-top: -10px;
+    font-size: 35px;
+    float: right;
+    margin-right: 15px;
+
+}
+
+.contato{
+    margin-left: auto;
+    min-height: 510px;
+    margin-top: 15px;
+}
+
+.contato form label{
+    color: white;
+    float: left;
+    margin-left: 10px;
+}
+
+.contato form input{
+    float: right;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 35px;
+}
+
+.contato form textarea{
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.contato form input#enviar{
+    width: 80px;
+    height: 30px;
+    border-radius: 0;
+    float: right;
+    cursor: pointer;
+    background-color:rgb(57, 92, 104);
+    border: 1px solid white;
+    color: white;
+    
+}
+
+.contato form input#enviar:hover{
+    background-color:rgb(11, 44, 55);
+}
+
+.contato2{
+    width: 410px;
+    height: 70px;
+    float: right;
+    margin-top: 20px;
+}
+
+.contato2:nth-child(3){
+    height: 180px;
+    margin-bottom: 25px;
+}
+
+.msg_aviso{
+    margin-top: 15px;
+    height: 85px;
+    width: 450px;
+    float: right;
+}
+
+/*Rodapé*/
+.row7{
+    background-color:rgb(29, 48, 55);
+    width: 100%;
+    min-height: 90px;
+}
+
+.quebra_linha2{
+    border: 1px solid white;
+    width: 100px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: white;
+    float: right;
+}
+
+.volta_topo{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    height: 60px;
+    float: right;
+}
+
+.volta_topo svg{
+    margin-top: 15px;
+}
+
+@media(min-width:600px) and  (max-width:999px){
+    .corpo{
+        height: 2040px;
+    }
+}
+
+.registro{
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 80px;
+    float: left;
+}
+
+.registro p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+@media(min-width:0px) and (max-width:599px) {
+    .registro p{
+        font-size: 0.7rem;
+    }
+
+    .msg_aviso{
+        width: 440px;
+    }
+}
+@media(min-width:599px) and (max-width:799px) {
+    .registro p{
+        font-size: 0.8rem;
+    }
+}
+
+@media(min-width:0px) and (max-width:576px) {
+    .corpo{
+        height: 1600px;
+    }
+    .previews{
+        height: 190px;
+    }
+
+    .preview{
+        height: 55px;
+    }
+
+    .preview img{
+        width: 40px;
+    }
+
+    #img1, #img2, #img3{
+        width: 180px;
+        margin-top: 5px;
+    }
+
+    .principal{
+        height: 190px;
+    }
+
+    .imgDestaque{
+        height: 185px;
+    }
+
+    .principal2{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .infoProduto{
+        float: left;
+        margin-right: 100px;
+    }
+
+    .nome{
+        height: 90px;
+        border-bottom: 1px solid;
+    }
+
+    .valor{
+        border-bottom: 1px solid white;
+        margin-top: 20px;
+    }
+
+    .pagamento button{
+        width: 340px;
+        float: left;
+    }
+
+    .descricao{
+        margin-top: 190px;
+        height: 600px;
+    }
+}
+@media(min-width:576px) and (max-width:776px) {
+    .corpo{
+        height: 1600px;
+    }
+    .previews{
+        height: 240px;
+    }
+
+    .preview{
+        height: 70px;
+    }
+
+    .preview img{
+        width: 57px;
+    }
+
+    #img1, #img2, #img3{
+        width: 220px;
+        margin-top: 5px;
+    }
+
+    .principal{
+        height: 240px;
+    }
+
+    .imgDestaque{
+        height: 230px;
+    }
+
+    .principal2{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .infoProduto{
+        float: left;
+        margin-right: 100px;
+    }
+
+    .nome{
+        height: 90px;
+        border-bottom: 1px solid white;
+    }
+
+    .valor{
+        border-bottom: 1px solid white;
+    }
+    
+
+    .pagamento button{
+        width: 390px;
+        float: left;
+    }
+
+    .descricao{
+        margin-top: 240px;
+        height: 600px;
+    }
+}
+
+@media(min-width:776px) and (max-width:992px) {
+    .corpo{
+        height: 1600px;
+    }
+    .previews{
+        height: 240px;
+    }
+
+    .preview{
+        height: 70px;
+    }
+
+    .preview img{
+        width: 57px;
+    }
+
+    #img1, #img2, #img3{
+        width: 220px;
+        margin-top: 5px;
+    }
+
+    .principal{
+        height: 240px;
+    }
+
+    .imgDestaque{
+        height: 230px;
+    }
+
+    .principal2{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .infoProduto{
+        height: 200px;
+        float: left;
+        margin-right: 100px;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+    }
+
+    .nome{
+        font-size: 25px;
+        height: 150px;
+        float: left;
+    }
+
+    .valor{
+        float: left;
+    }
+
+    .pagamento button{
+        width: 250px;
+        float: right;
+    }
+
+    .descricao{
+        margin-top: 110px;
+        height: 600px;
+    }
+}
+
+@media(min-width:992px){
+    .preview img{
+        width: 90px;
+    }
+
+    .pagamento button{
+        width: 220px;
+    }
+
+    .infoProduto{
+        border-left: 1px solid white;
+    }
+
+    .nome{
+        font-size: 19px;
+    
+    }
+
+    .valor p{
+        margin-right: -9px;
+    }
+}
+

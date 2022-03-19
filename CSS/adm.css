@@ -1,0 +1,301 @@
+.bg{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo{
+    padding: 13px;
+    text-align: center;
+    cursor:pointer;
+    float: left;
+}
+
+
+.corpo{
+    margin-top: 20px;
+    max-width: 950;
+    height: 610px;
+    background-color:rgb(6, 31, 39);
+    border-radius: 5px;
+    padding: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.corpo .logo{
+    margin-bottom: 40px;
+}
+
+.corpo .titulo{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+.row4{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    min-height: 200px;
+}
+
+@media(min-width:0px) and (max-width:599px) {
+    .row4{
+        min-height:480px;
+    }
+
+    .corpo{
+        height: 800px;
+    }
+}
+
+
+@media(min-width:599px) and (max-width:1000px) {
+    .row4{
+        min-height:570px;
+    }
+}
+
+.produtos{
+    height: 200px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    float: left;
+    background-color:rgb(187, 200, 210);
+    margin-bottom: 30px;
+}
+
+.produtos img{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
+
+}
+
+.usuarios{
+    height: 200px;
+    cursor: pointer;
+    float: right;
+    background-color:rgb(187, 200, 210);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.usuarios img{
+    width: 200px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.text2{
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.text2 > *{
+    transform: translateY(20px) ;
+    transition: transform 0.25s;
+}
+
+.text2:hover{
+    opacity: 1;
+}
+
+.text2:hover > *{
+    transform: translateY(0) ;
+}
+
+.text3{
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.text3 > *{
+    transform: translateY(20px) ;
+    transition: transform 0.25s;
+}
+
+.text3:hover{
+    opacity: 1;
+}
+
+.text3:hover > *{
+    transform: translateY(0) ;
+}
+
+.botao_users{
+    color: white;
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    background-color:rgb(57, 92, 104);
+    border: 1px solid black;
+    float: left;
+    margin-left: 20px;
+}
+
+.botao_users:hover{
+    cursor: pointer;
+    background-color:rgb(11, 44, 55);
+}
+
+.pesquisa{
+    text-align: right;
+}
+
+.pesquisa input{
+    width: 390px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    padding-left: 20px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pesquisa button{
+    width: 47px;
+    height: 45px;
+    border-radius: 35px;
+    border: 1px solid black;
+    margin-left: -48px;
+    background-color:rgb(57, 92, 104);
+    margin-bottom: 10px;
+}
+
+.pesquisa button:hover{
+    cursor: pointer;
+    background-color:rgb(11, 44, 55);
+}
+
+table{
+    margin-top: 80px;
+}
+
+thead{
+    
+    color: white;
+    border: 1px solid white;
+    background-color:rgb(57, 92, 104);
+}
+
+tbody{
+    background-color: white;
+    color: black;
+
+}
+
+th{
+    border: 1px solid white;
+}
+
+
+/*Rodapé*/
+.row7{
+    background-color:rgb(29, 48, 55);
+    width: 100%;
+    min-height: 90px;
+}
+
+.volta_topo{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    height: 60px;
+    float: right;
+}
+
+.volta_topo svg{
+    margin-top: 15px;
+}
+
+@media(min-width:600px) and  (max-width:999px){
+    .corpo{
+        height: 870px;
+    }
+}
+
+.registro{
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 80px;
+    float: left;
+}
+
+.registro p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+@media(min-width:0px) and (max-width:599px) {
+    .registro p{
+        font-size: 0.7rem;
+    }
+
+    .msg_aviso{
+        width: 440px;
+    }
+
+    .pesquisa{
+        text-align: center;
+    }
+
+}
+@media(min-width:599px) and (max-width:799px) {
+    .registro p{
+        font-size: 0.8rem;
+    }
+
+    .pesquisa{
+        text-align: center;
+    }
+
+}

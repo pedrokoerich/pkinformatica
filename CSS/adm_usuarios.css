@@ -1,0 +1,486 @@
+.bg{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    padding: 13px;
+    text-align: center;
+    cursor:pointer;
+    float: left;
+}
+
+input, textarea{
+    outline: none;
+}
+
+.corpo{
+    margin-top: 20px;
+    max-width: 950;
+    height: 1230px;
+    background-color:rgb(6, 31, 39);
+    border-radius: 5px;
+    padding: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.corpo .logo{
+    margin-bottom: 40px;
+}
+
+@media(min-width:0px) and (max-width:599px) {
+    .corpo{
+        height: 800px;
+    }
+}
+
+.botao_users{
+    color: white;
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    background-color:rgb(57, 92, 104);
+    border: 1px solid black;
+    float: left;
+    margin-left: 20px;
+}
+
+.botao_users:hover{
+    cursor: pointer;
+    background-color:rgb(11, 44, 55);
+}
+
+.pesquisa{
+    text-align: right;
+}
+
+.pesquisa input{
+    width: 390px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    padding-left: 20px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pesquisa button{
+    width: 47px;
+    height: 45px;
+    border-radius: 35px;
+    border: 1px solid black;
+    margin-left: -48px;
+    background-color:rgb(57, 92, 104);
+    margin-bottom: 10px;
+}
+
+.pesquisa button:hover{
+    cursor: pointer;
+    background-color:rgb(11, 44, 55);
+}
+
+table{
+    margin-top: 80px;
+}
+
+thead{
+    color: white;
+    border: 1px solid white;
+    background-color:rgb(57, 92, 104);
+}
+
+tbody{
+    background-color: white;
+    color: black;
+}
+
+th{
+    border: 1px solid white;
+}
+
+.alteraUsuario, .excluiUsuario{
+    text-align: center;
+}
+
+.formUsuarios{
+    color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quebra_linha{
+    margin-top: 125px;
+    border: 1px solid white;
+    width: 130px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.quebra_linha3{
+    border: 1px solid white;
+    width: 70px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+
+.quebra_linha4{
+    border: 1px solid white;
+    width: 70px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info_pessoais input#iNome{
+    margin-right: 10px;
+}
+
+.info_cadastro{
+    text-align: center;
+}
+
+.info_cadastro div input{
+    margin-bottom: 7px;
+}
+
+.cadastro_clientes label{
+    color: white;
+    font-size: 17px;
+}
+
+.botoes input{
+    cursor: pointer;
+    background-color:rgb(57, 92, 104);
+    border: 1px solid white;
+    color: white;
+}
+
+.botoes input:hover{
+    background-color:rgb(11, 44, 55);
+}
+
+.custom-select{
+    margin-top: 10px;
+    width: 250px;
+}
+
+.msg_aviso{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    height: 60px;
+    width: 450px;
+}
+
+.msg_cadastro{
+    font-size: 15px;
+    width: 300px;
+    height: 7px;
+    border-radius: 2px;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#alerta{
+    width: 270px;
+    height: 49px;
+}
+
+.paginacao{
+    height: 60px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Rodapé*/
+.row7{
+    background-color:rgb(29, 48, 55);
+    width: 100%;
+    min-height: 90px;
+}
+
+.volta_topo{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    height: 60px;
+    float: right;
+}
+
+.volta_topo svg{
+    margin-top: 15px;
+}
+
+@media(min-width:600px) and  (max-width:999px){
+    .corpo{
+        height: 1200px;
+    }
+}
+
+.registro{
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 80px;
+    float: left;
+}
+
+.registro p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+@media(min-width:0px) and (max-width:599px) {
+    .registro p{
+        font-size: 0.7rem;
+    }
+
+}
+@media(min-width:599px) and (max-width:799px) {
+    .registro p{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media(min-width:0px) and (max-width:576px) {
+    .corpo{
+        height: 1300px;
+    }
+
+    .msg_aviso{
+        width: 435px;
+    }
+
+    .info_pessoais input#iNome{
+        width: 340px;
+    }
+
+    .info_pessoais input#iIdade{
+        margin-left: 5px;
+    }
+
+    .info_contato input#iCelular{
+        width:331px;
+        margin-left: 10px;
+    }
+    .info_contato input#iTelefone{
+        width:330px;
+    }
+    .info_contato input#iEmail{
+        width:331px;
+        margin-left: 14px;
+    }
+
+    .info_endereco input#iEstado{
+        width: 330px;
+        margin-left: 12px;
+    }
+
+    .info_endereco input#iCidade{
+        width: 330px;
+        margin-left: 10px;
+    }
+
+    .info_endereco input#iBairro{
+        margin-left: 17px;
+        width: 331px;
+    }
+    .info_endereco input#iCEP{
+        width: 331px;
+        margin-left: 32px;
+    }
+
+    .info_endereco input#iRua{
+        margin-left: 33px;
+        width: 330px;
+    }
+
+    .info_endereco input#iNro_rua{
+        width: 110px;
+    }
+
+    .registro p{
+        font-size: 0.7rem;
+    }
+}
+@media(min-width:576px) and (max-width:776px) {
+    .corpo{
+        height: 1300px;
+    }
+
+    .info_pessoais input#iNome{
+        width: 395px;
+    }
+
+    .info_pessoais input#iIdade{
+        margin-left: 5px;
+    }
+
+    .info_contato input#iCelular{
+        width:381px;
+        margin-left: 11px;
+    }
+    .info_contato input#iTelefone{
+        width:379px;
+        margin-left: 2px;
+    }
+    .info_contato input#iEmail{
+        width:380px;
+        margin-left: 16px;
+    }
+
+    .info_endereco input#iEstado{
+        width: 380px;
+        margin-left: 12px;
+    }
+
+    .info_endereco input#iCidade{
+        width: 380px;
+        margin-left: 10px;
+    }
+    .info_endereco input#iBairro{
+        margin-left: 17px;
+        width: 381px;
+    }
+    .info_endereco input#iCEP{
+        width: 380px;
+        margin-left: 32px;
+    }
+
+    .info_endereco input#iRua{
+        margin-left: 32px;
+        width: 381px;
+    }
+
+    .info_endereco input#iNro_rua{
+        width: 120px;
+    }
+
+    .registro p{
+        font-size: 0.8rem;
+    }
+}
+
+@media(min-width:776px) and (max-width:992px) {
+    .info_pessoais input#iNome{
+        width: 350px;
+    }
+
+    .info_contato input#iCelular{
+        width:245px;
+        margin-right: 8px;
+        margin-left: 3px;
+    }
+    .info_contato input#iTelefone{
+        width:250px;
+    }
+    .info_contato input#iEmail{
+        width:574px;
+        margin-left: 8px;
+    }
+
+    .info_endereco input#iEstado{
+        width: 575px;
+        margin-left: 4px;
+    }
+
+    .info_endereco input#iCidade{
+        margin-left: 3px;
+        width: 575px;
+    }
+    .info_endereco input#iBairro{
+        margin-left: 10px;
+        width: 575px;
+    }
+    .info_endereco input#iCEP{
+        margin-left: 25px;
+        width: 574px;
+    }
+
+    .info_endereco input#iRua{
+        margin-left: 25px;
+        width: 355px;
+    }
+
+    .info_endereco input#iNro_rua{
+        width: 150px;
+    }
+}
+
+@media(min-width:992px){
+    .info_pessoais input#iNome{
+        width: 400px;
+    }
+
+    .info_contato input#iCelular{
+        width: 380px;
+        margin-right: 6px;
+    }
+    .info_contato input#iTelefone{
+        width:264px;
+    }
+    .info_contato input#iEmail{
+        width:650px;
+        margin-left: 10px;
+    }
+
+    .info_contato input#iCelular{
+        width:250px;
+        margin-right: 11px;
+        margin-left: 5px;
+    }
+    .info_contato input#iTelefone{
+        width:288px;
+    }
+    .info_contato input#iEmail{
+        width:620px;
+    }
+
+    .info_endereco input#iEstado{
+        margin-left: 26px;
+        width: 602px;
+    }
+
+    .info_endereco input#iCidade{
+        margin-left: 24px;
+        width: 602px;
+    }
+    .info_endereco input#iBairro{
+        margin-left: 32px;
+        width: 602px;
+    }
+    .info_endereco input#iCEP{
+        margin-left: 48px;
+        width: 600px;
+    }
+
+    .info_endereco input#iRua{
+        margin-left: 48px;
+        width: 375px;
+    }
+
+    .info_endereco input#iNro_rua{
+        width: 155px;
+    }
+}

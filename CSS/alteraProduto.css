@@ -1,0 +1,286 @@
+.bg{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo{
+    padding: 13px;
+    text-align: center;
+    cursor:pointer;
+    float: left;
+}
+
+
+.corpo{
+    margin-top: 20px;
+    max-width: 950;
+    height: 1100px;
+    background-color:rgb(6, 31, 39);
+    border-radius: 5px;
+    padding: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.corpo .logo{
+    margin-bottom: 40px;
+}
+
+
+.botao_produtos{
+    color: white;
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    background-color:rgb(57, 92, 104);
+    border: 1px solid black;
+    float: left;
+    margin-left: 20px;
+}
+
+.botao_produtos:hover{
+    cursor: pointer;
+    background-color:rgb(11, 44, 55);
+}
+
+.pesquisa{
+    text-align: right;
+}
+
+.pesquisa input{
+    width: 390px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    padding-left: 20px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pesquisa button{
+    width: 47px;
+    height: 45px;
+    border-radius: 35px;
+    border: 1px solid black;
+    margin-left: -48px;
+    background-color:rgb(57, 92, 104);
+    margin-bottom: 10px;
+}
+
+.pesquisa button:hover{
+    cursor: pointer;
+    background-color:rgb(11, 44, 55);
+}
+
+table{
+    margin-top: 80px;
+    
+}
+
+thead{
+    
+    color: white;
+    border: 1px solid white;
+    background-color:rgb(57, 92, 104);
+}
+
+tbody{
+    background-color: white;
+    color: black;
+
+}
+
+th{
+    border: 1px solid white;
+}
+
+.alteraProduto{
+    text-align: center;
+    cursor: pointer;
+}
+
+.excluiProduto{
+    text-align: center;
+    cursor: pointer;
+}
+
+.paginacao{
+    margin-top: 50px;
+}
+
+.msg_aviso{
+    font-size: 15px;
+    width: 300px;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.msg_cadastro{
+    font-size: 15px;
+    width: 300px;
+    height: 7px;
+    border-radius: 2px;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#alerta{
+    width: 270px;
+    height: 49px;
+
+}
+
+#alteraProduto{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 125px;
+}
+
+.quebra_linha{
+    border: 1px solid white;
+    width: 130px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.paginacao{
+    height: 60px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.inputFoto{
+    width: 150px;
+    height: 100px;
+    background-color:rgb(89, 129, 143);
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.inpuFoto > *{
+    transform: translateY(20px) ;
+    transition: transform 0.25s;
+}
+
+.inputFoto:hover{
+    opacity: 1;
+    background:rgba(65, 87, 106, 0.767);
+    transition: opacity 0.25s;
+}
+
+.inputFoto > *{
+    transform: translateY(0) ;
+}
+
+.inputFoto svg{
+    margin-top: 30px;
+}
+
+img{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.modal-footer{
+    border-top: none;
+}
+
+/*Rodapé*/
+.row7{
+    background-color:rgb(29, 48, 55);
+    width: 100%;
+    min-height: 90px;
+}
+
+.volta_topo{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    height: 60px;
+    float: right;
+}
+
+.volta_topo svg{
+    margin-top: 15px;
+}
+
+
+
+.registro{
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 80px;
+    float: left;
+}
+
+.registro p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+@media(min-width:0px) and (max-width:599px) {
+    .corpo{
+        height: 1300px;
+    }
+
+    .registro p{
+        font-size: 0.7rem;
+    }
+
+    .pesquisa{
+        text-align: center;
+    }
+
+}
+@media(min-width:599px) and (max-width:799px) {
+    .corpo{
+        height: 1000px;
+    }
+
+    .registro p{
+        font-size: 0.8rem;
+    }
+
+    .pesquisa{
+        text-align: center;
+    }
+
+}
+
+@media(min-width:799px) and  (max-width:999px){
+    .corpo{
+        height: 1000px;
+    }
+}
+
+/* @media(min-width:999px){
+    .corpo{
+        height: 1000px;
+    }
+} */
