@@ -8,6 +8,8 @@
     }else{
         $id = $_SESSION['idUsuario'];
     }
+
+    echo($DATABASE_URL);
 ?>
 
 <!DOCTYPE HTML>
