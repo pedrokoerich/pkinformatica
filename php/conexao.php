@@ -7,6 +7,6 @@
     $username = $url["user"];
     $password = $url["pass"];
     $db = substr($url["path"], 1);
-    $conn = new mysqli($server, $username, $password, $db) or die("Falha: " . mysql_connect_error());
+    $conn = new mysql($server, $username, $password, $db) or die("Falha: " . mysql_connect_error());
 
 ?>
