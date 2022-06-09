@@ -9,6 +9,15 @@ O software deverá conter um catálogo de produtos e seus respectivos detalhes (
 Uma aplicação responsiva para acesso via navegador, tablet ou smartphone.
 Cadastros de produtos voltados para o segmento de informática (Periféricos, Hardwares, Cadeiras, Monitores), cadastro de clientes e de funcionários, Informações da empresa.
 O sistema não terá a parte de vendas, apenas o catálogo dos produtos, informações dos produtos e da empresa.</p>
-
-
+<h3>Tecnologias Utilizadas</h3>
+<ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>Bootstrap</li>
+    <li>JQuery</li>
+    <li>PHP</li>
+    <li>MySQL</li>
+ </ul>
+<h3>Link de acesso ao software</h3>
 <li>https://pkinformatica.herokuapp.com</li>
