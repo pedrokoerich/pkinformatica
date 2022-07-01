@@ -10,7 +10,7 @@
 
     //Cabeçalho da tabela
     if($produtosListados > 0){ //Verifica se há registros no banco
-        echo "<html>
+        echo "<html lang='pt-br'>
             <thead>
                 <tr>
                     <th scope='col'>ID</th>
@@ -50,7 +50,7 @@
             $descricao = $row_produto['descricao'];
 
             //Conteúdo da tabela
-            echo "<html>
+            echo "<html lang='pt-br'>
                     <tr>
                         <th scope='row'>$id</th>
                         <td>$nome</td>

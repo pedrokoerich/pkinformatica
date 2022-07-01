@@ -30,7 +30,7 @@
         }
 
         if($_SESSION['login'] == true){
-            echo "<html>
+            echo "<html lang='pt-br'>
                     <div class='$categoria'>
                     <a href= 'especsproduto.php?id=$id_produto'>
                         <div class='col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 produto'>
@@ -43,7 +43,7 @@
                     </div>
                 </html>";
         }else{
-            echo "<html>
+            echo "<html lang='pt-br'>
             <div class='$categoria'>
                     <div class='col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 produto'>
                         <div class='box_img'>

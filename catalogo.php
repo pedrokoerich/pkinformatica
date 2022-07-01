@@ -12,7 +12,7 @@
 ?>
 
 <!DOCTYPE HTML>
-<html>
+<html lang='pt-br'>
     <head>
         <link rel="shortcut icon" href="img/icone.ico" type="image/x-icon">
         <title>PK Informática - Catálogo TI </title>

@@ -10,7 +10,7 @@
     $inicio = ($qtd_pg * $pag) - $qtd_pg;                   //Início das páginas
 
     if($produtosListados > 0){
-        echo "<html>
+        echo "<html lang='pt-br'>
             <thead>
                 <tr>
                     <th scope='col'>ID</th>
@@ -48,7 +48,7 @@
             $marca = $row_produto['marca'];
             $descricao = $row_produto['descricao'];
         
-            echo "<html>
+            echo "<html lang='pt-br'>
                     <tr>
                         <th scope='row'>$id</th>
                         <td>$nome</td>

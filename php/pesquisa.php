@@ -32,7 +32,7 @@
         $nome_produto = $row_produto['nome'];
 
         if($_SESSION['login'] == true){
-            echo    "<html>
+            echo    "<html lang='pt-br'>
                         <a href= 'especsproduto.php?id=$id_produto'>
                             <div id='conteudo' class='col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 produto'>
                                 <div class='box_img'>
@@ -43,7 +43,7 @@
                         </a>
                     </html>";
         }else{
-            echo    "<html>
+            echo    "<html lang='pt-br'>
                         <div id='conteudo' class='col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 produto'>
                             <div class='box_img'>
                                 <img src= '$img_produto' style='width: 250px; margin-left: auto; margin-right: auto'>

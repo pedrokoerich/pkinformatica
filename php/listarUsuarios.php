@@ -10,7 +10,7 @@
 
     //Cabeçalho da tabela
     if($usuariosListados > 0){ //Verifica se há registros no banco
-        echo "<html>
+        echo "<html lang='pt-br'>
             <thead>
                 <tr>
                     <th scope='col'>ID</th>
@@ -45,7 +45,7 @@
             }
 
             //Conteúdo da tabela
-            echo "<html>
+            echo "<html lang='pt-br'>
                      <tr>
                         <th scope='row'>$id</th>
                         <td>$nome</td>
