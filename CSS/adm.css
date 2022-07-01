@@ -237,6 +237,11 @@ th{
 
 
 /*Rodapé*/
+footer{
+    position: absolute;
+    bottom: 0px;
+}
+
 .row7{
     background-color:rgb(29, 48, 55);
     width: 100%;
