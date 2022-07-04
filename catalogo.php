@@ -191,8 +191,8 @@
         </div>
         <footer>
             <div class="row7">
-                <div class="col-lg-2 col-md-2 col-sm-2 col-2 logo"><a href="index.php"><img src="img/logo.png" width="80px"></a></div>
-                <div class="col-lg-9 col-md-9 col-sm-9 col-8 registro">
+                <div class="col-lg-1 col-md-2 col-sm-2 col-2 logo"><a href="index.php"><img src="img/logo.png" width="80px"></a></div>
+                <div class="col-lg-10 col-md-9 col-sm-9 col-8 registro">
                     <p>PK INFORMÁTICA® | CNPJ: 00.000.000/0000-00<br>
                         Copyright © 2021 - PK Informática - Todos os direitos reservados</p>
                 </div>
