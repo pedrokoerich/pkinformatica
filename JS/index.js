@@ -15,7 +15,10 @@ $(document).ready(function(){
                     $("#alert").addClass('alert-success');
                     $("#msg_texto").html('Email enviado com sucesso!');
                     $("#msg_texto2").html('Vamos analisar sua dúvida, obrigado pelo contato.');
-                    
+
+                    setTimeout(function(){
+                        $(location).attr('href','index.php');
+                    }, 10300);
 
                 }else{
                     $("#alert").removeClass('alert-success');
@@ -42,27 +45,4 @@ $(document).ready(function(){
         
         return false;
     });
-
-    $("#login").submit(function() {
-        var dados = jQuery( this ).serialize();
-        $.ajax({
-            url: 'php/login.php',
-            cache: false,
-            data: dados,
-            type: "POST",
-
-            success: function(msg){
-                if(msg == "Logou"){
-                    $("#exampleModalLabel").html("Logado");
-                    $('#msg_login').modal('show');
-
-                }else{
-                    $("#exampleModalLabel").html(msg);
-                    $('#msg_login').modal('show');
-                }
-            }
-        });
-
-        return false;
-    })
 });

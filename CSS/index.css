@@ -2,6 +2,7 @@ input, textarea{
     outline: none;
 }
 
+
 /*Cabeçalho*/
 .bg{
     background-repeat: no-repeat;
@@ -57,6 +58,13 @@ html {
 
 }
 
+.login p{
+    font-size: 17px;
+    text-align: right;
+    margin-bottom: 2px;
+    
+}
+
 .login input{
     border-radius: 5px;
     font-size: 12px;
@@ -74,7 +82,7 @@ html {
     border: 1px solid white;
     font-size: 11px;
     color: white;
-    background-color:rgb(57, 92, 104);
+    background-color:rgb(11, 44, 55);
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 3px;
     margin-left: 5px;
@@ -82,12 +90,22 @@ html {
 }
 
 .login button:hover{
-    background-color:rgb(11, 44, 55);
     cursor: pointer;
 }
 
 .login a{
     cursor: pointer;
+}
+
+
+.msg_login{
+    margin-top: 10px;
+    margin-bottom: -13px;
+    font-size: 15px;
+    width: 250px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Main*/
@@ -348,12 +366,17 @@ html {
     margin-left: auto;
     margin-right: auto;
     max-width: 600px;
+    text-align: justify;
 
 }
 
 @media(min-width:0px) and (max-width:799px) {
     .texto_quem_somos p{
         font-size: 1.1rem;
+    }
+
+    .login{
+        text-align: right;
     }
 }
 
@@ -461,6 +484,10 @@ html {
 @media(min-width:600px) and  (max-width:999px){
     .corpo{
         height: 2040px;
+    }
+
+    .login{
+        text-align: right;
     }
 }
 

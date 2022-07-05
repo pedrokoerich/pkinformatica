@@ -18,13 +18,13 @@
         
         <!--SCRIPTS-->
         <script src="estilo/js/jquery-3.3.1.min.js" type="text/javascript"></script>
-        <script src="JS/index-outronome.js"></script>
+        <script src="JS/index.js"></script>
         <script src="estilo/js/bootstrap.min.js" type="text/javascript"></script>
         
         <!--FORMATAÇÕES-->
         <meta charset="utf-8">
         <link href="estilo/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link href="CSS/index-teste.css" rel="stylesheet">
+        <link href="CSS/index.css" rel="stylesheet">
     </head>
 
     <body background="img/Background.jpg" class="bg img-fluid"> <!--Background de fundo-->

@@ -4,10 +4,6 @@ input, textarea{
 
 /*Cabeçalho*/
 
-header{
-    position: fixed;
-}
-
 .bg{
     background-repeat: no-repeat;
     background-size: 100%;
@@ -62,13 +58,6 @@ html {
 
 }
 
-.login p{
-    font-size: 17px;
-    text-align: right;
-    margin-bottom: 2px;
-    
-}
-
 .login input{
     border-radius: 5px;
     font-size: 12px;
@@ -86,7 +75,7 @@ html {
     border: 1px solid white;
     font-size: 11px;
     color: white;
-    background-color:rgb(11, 44, 55);
+    background-color:rgb(57, 92, 104);
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 3px;
     margin-left: 5px;
@@ -94,6 +83,7 @@ html {
 }
 
 .login button:hover{
+    background-color:rgb(11, 44, 55);
     cursor: pointer;
 }
 
@@ -166,88 +156,6 @@ html {
     transform: translateX(26px);
 }
 
-.categorias2 label{
-    color: white;
-}
-
-
-.categorias2 div{
-    float: left;
-}
-
-.catalogo{
-    margin-top: 30px;
-    float: right;
-    text-align: center;
-    overflow: hidden;
-    overflow-y: scroll;
-}
-
-.catalogo::-webkit-scrollbar-track {
-    background-color: #F4F4F4;
-}
-.catalogo::-webkit-scrollbar {
-    width: 12px;
-    background: #F4F4F4;
-}
-.catalogo::-webkit-scrollbar-thumb {
-    background: #dad7d7;
-    border-radius: 5px;
-}
-
-.catalogo::-webkit-scrollbar-track-piece{
-    background-color:rgb(6, 31, 39);
-}
-
-.produto{
-    margin-bottom: 10px;
-    color: white;
-    height: 300px;
-    float: left;
-
-}
-
-.box_img{
-    background-color:rgb(187, 200, 210);
-    border-radius: 5px;
-    margin-top: 15px;
-}
-
-.box_img p{
-    border-radius: 5px;
-    position: absolute;
-    top: 0;
-    margin-top: 15px;
-    left: 1;
-    width: 320px;
-    height: 250px;
-    background:rgba(0, 0, 0, 0.7);
-    color: #d6d0d0;
-    font-weight: bold;
-    font-size: 14px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    opacity: 0;
-    transition: opacity 0.25s;
-}
-
-.box_img p > *{
-    transform: translateY(20px) ;
-    transition: transform 0.25s;
-}
-
-.box_img p:hover{
-    opacity: 1;
-}
-
-.box_img p:hover > *{
-    transform: translateY(0) ;
-}
-
 .corpo_catalogo{
     margin-top: 20px;
     min-height: 2050px;
@@ -274,11 +182,11 @@ html {
 
 @media(min-width:0px) and (max-width:576px) {
     .corpo_catalogo{
-        min-height: 5450px;
+        min-height: 3800px;
     }
 
     .catalogo{
-        height: 5250px;
+        height: 3300px;
     }
 
     .categorias2{
@@ -306,29 +214,15 @@ html {
         height: 12px;
     }
 
-    .box_img p{
-        width: 363px;
-        height: 250px;
-    }
-
     .paginacao{
         margin-left: 80px;
         margin-top: 350px;
     }
-
-    .login{
-        text-align: right;
-    }
-    
 }
 
 @media(min-width:576px) and (max-width:776px) {
     .corpo_catalogo{
-        min-height: 5450px;
-    }
-
-    .catalogo{
-        height: 5250px;
+        min-height: 2350px;
     }
 
     .categorias2{
@@ -356,28 +250,19 @@ html {
         height: 12px;
     }
 
-    .box_img p{
-        width: 418px;
-        height: 250px;
-    }
-
     .paginacao{
         margin-left: 100px;
         margin-top: 350px;
-    }
-
-    .login{
-        text-align: right;
     }
 }
 
 @media(min-width:776px) and (max-width:992px) {
     .corpo_catalogo{
-        min-height: 5450px;
+        min-height: 3800px;
     }
 
     .catalogo{
-        height: 5250px;
+        height: 1550px;
     }
 
     .categorias2{
@@ -400,20 +285,12 @@ html {
         width: 16px;
         height: 16px;
         left:0;
-    }
 
-    .box_img p{
-        width: 598px;
-        height: 250px;
     }
 
     .paginacao{
         margin-left: 200px;
         margin-top: 350px;
-    }
-
-    .login{
-        text-align: right;
     }
 }
 
@@ -437,11 +314,6 @@ html {
         margin-left: 20px;
         margin-right: 30px;
         width: 160px;
-    }
-
-    .box_img p{
-        width: 259px;
-        height: 250px;
     }
 
     .paginacao{
@@ -469,6 +341,35 @@ html {
         margin-right: 40px;
         width: 170px;
     }
+}
+
+.categorias2 label{
+    color: white;
+}
+
+
+.categorias2 div{
+    float: left;
+}
+
+.catalogo{
+    margin-top: 10px;
+    border: 1px solid white;
+    float: right;
+    text-align: center;
+}
+
+.produto{
+    margin-bottom: 10px;
+    color: white;
+    border: 1px solid gold;
+    height: 300px;
+    float: left;
+}
+
+.box_img{
+    background-color:rgb(187, 200, 210);
+    border-radius: 5px;
 }
 
 
