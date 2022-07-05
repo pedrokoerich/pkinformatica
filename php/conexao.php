@@ -10,5 +10,5 @@
     $active_group = 'default' ;  
     $query_builder = TRUE ;  
     // Conecta ao banco de dados
-    $conn = mysqli_connect ( $cleardb_server , $cleardb_username , $cleardb_password , $cleardb_db, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8')) ;
+    $conn = mysqli_connect ( $cleardb_server , $cleardb_username , $cleardb_password , $cleardb_db) ;
 ?>
