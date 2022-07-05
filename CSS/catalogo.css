@@ -484,7 +484,6 @@ html {
 
 .catalogo{
     margin-top: 10px;
-    border: 1px solid white;
     float: right;
     text-align: center;
 }
@@ -492,7 +491,6 @@ html {
 .produto{
     margin-bottom: 10px;
     color: white;
-    border: 1px solid gold;
     height: 300px;
     float: left;
 }
