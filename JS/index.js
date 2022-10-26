@@ -53,9 +53,10 @@ $(document).ready(function(){
 
             success: function(msg){
                 if(msg == "Logou"){
-                    $("#exampleModalLabel").html("Logado")
+                    $('#msg_login').modal('hide')
 
                 }else{
+                    $('#msg_login').html(msg)
                     $('#msg_login').modal('show')
                 }
             }
