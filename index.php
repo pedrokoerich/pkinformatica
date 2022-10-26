@@ -120,7 +120,7 @@
                         <div class="text-center text-white bg-danger msg_login">
                             <?php if(isset($_SESSION['erroLogin'])){
                                 echo $_SESSION['erroLogin'];
-                                unset ($_SESSION['erroLogin']);
+                                //unset ($_SESSION['erroLogin']);
                             }?>
                         </div>
                     </form>
