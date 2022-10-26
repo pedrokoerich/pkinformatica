@@ -52,10 +52,7 @@ $(document).ready(function(){
             type: "POST",
 
             success: function(msg){
-                if(msg == "Logou"){
-                    $('#msg_login').modal('hide')
-
-                }else{
+                if(msg == "Usuário ou senha inválido"){
                     $('#msg_login').html(msg)
                     $('#msg_login').modal('show')
                 }
