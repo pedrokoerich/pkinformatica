@@ -16,6 +16,6 @@
     //$conn = mysqli_connect("servidor","usuario","senha","banco") or die("Falha: " . mysqli_connect_error());
     $conn = mysqli_connect("localhost","root","","pk_informatica") or die("Falha: " . mysqli_connect_error());
 
-    $conn = mysqli_connect("mysql://b508dff0e75fef:83ea8554@eu-cdbr-west-02.cleardb.net/heroku_0aa435053d23286?reconnect=true") or die("Falha: " . mysqli_connect_error());
+    $conn = mysqli_connect("mysql://b0c5a9a72b49cb:048e77dc@eu-cdbr-west-03.cleardb.net/heroku_9f853df58698c04?reconnect=true") or die("Falha: " . mysqli_connect_error());
     echo($DATABASE_URL);
 ?>
